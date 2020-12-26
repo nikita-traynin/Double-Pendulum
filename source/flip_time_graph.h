@@ -35,7 +35,7 @@ void flip_time_graph(char *argv[])
 	const double angle_step_a = (max_angle_a - min_angle_a) / m;
     const double angle_step_c = (max_angle_c - min_angle_c) / n;
 
-	//declare the axes of the grid
+	//declare the axes of the grid (a's and c's)
     double as[m];
     double cs[n];
 	
